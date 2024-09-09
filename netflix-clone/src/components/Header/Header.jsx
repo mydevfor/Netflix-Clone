@@ -1,6 +1,7 @@
 // import React from 'react'
 import "./header.css";
 import NetflixLogo from "../../assets/images/logo.png";
+import ProfileLogo from "../../assets/images/profile_img.png"
 import SearchIcon from "@mui/icons-material/Search";
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 import AccountBoxIcon from "@mui/icons-material/AccountBox";
@@ -29,12 +30,14 @@ const Header = () => {
             <li>
               <SearchIcon />
             </li>
+            <li><p>Kids</p></li>
             <li>
               <NotificationsNoneIcon />
             </li>
             <li>
               <AccountBoxIcon />
             </li>
+            <li><img src={ProfileLogo} alt="" /></li>
             <li>
               <ArrowDropDownIcon />
             </li>
