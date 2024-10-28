@@ -20,7 +20,8 @@ const RowList = () => {
         title="Documentaries Movies"
         fetchUrl={requests.fetchDocumentaries}
       />
-      <Row title="TV Shows" fetchUrl={requests.fetchTvShow} />
+      <Row title="Animation Movies" fetchUrl={requests.fetchAnimationMovies} />
+      <Row title="Hacking Movies" fetchUrl={requests.fetchHackingMovies} />
     </div>
   );
 };
